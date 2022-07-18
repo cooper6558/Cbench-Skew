@@ -31,3 +31,10 @@ from cbench_skew.stage2 import plot
 
 plot(hist('data/test.hdf5', 'default', 20))
 ```
+
+## Method 4
+There is a scheduling script you can use. Right now it just prints the
+commands it would run.
+```shell
+> python -m cbench_skew.schedule --script data/jobs.json
+```

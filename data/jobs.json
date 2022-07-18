@@ -1,0 +1,41 @@
+{
+"jobs":
+    [
+        {
+            "name": "dataset 1 stage 1",
+            "exe": "python -m cbench_skew.stage1",
+            "input": "data/test.hdf5",
+            "output": "data/histogram.npy",
+            "args": "--dataset default --bins 20"
+        },
+        {
+            "name": "dataset 1 stage 2",
+            "exe": "python -m cbench_skew.stage2",
+            "input": "data/histogram.npy"
+        },
+        {
+            "name": "dataset 2 stage 1",
+            "exe": "python -m cbench_skew.stage1",
+            "input": "data/test.hdf5",
+            "output": "data/histogram.npy",
+            "args": "--dataset default --bins 20"
+        },
+        {
+            "name": "dataset 2 stage 2",
+            "exe": "python -m cbench_skew.stage2",
+            "input": "data/histogram.npy"
+        },
+        {
+            "name": "dataset 3 stage 1",
+            "exe": "python -m cbench_skew.stage1",
+            "input": "data/test.hdf5",
+            "output": "data/histogram.npy",
+            "args": "--dataset default --bins 20"
+        },
+        {
+            "name": "dataset 3 stage 2",
+            "exe": "python -m cbench_skew.stage2",
+            "input": "data/histogram.npy"
+        }
+    ]
+}
