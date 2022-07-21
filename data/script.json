@@ -1,0 +1,15 @@
+{
+    "inputs":
+    [
+        "dataset_1",
+        "dataset_2",
+        "dataset_3"
+    ],
+    "args":
+    [
+        "--compressor compressor_1",
+        "--compressor compressor_2",
+        "--compressor compressor_3"
+    ],
+    "exe": "python -m compression_analysis"
+}

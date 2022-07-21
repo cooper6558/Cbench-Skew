@@ -1,2 +1,3 @@
 venv/
 data/*.npy
+data/output.json

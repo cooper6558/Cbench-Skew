@@ -12,7 +12,7 @@ def main():
         help='script file name'
     )
     args = parser.parse_args()
-    with open(args.script) as f:
+    with open(args.script, 'r') as f:
         script = load(f)['jobs']
     for job in script:
         print(job['name'])
