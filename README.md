@@ -38,3 +38,11 @@ commands it would run.
 ```shell
 > python -m cbench_skew.schedule --script data/jobs.json
 ```
+
+## Method 5
+Use a scheduling script that combines arguments from json
+```shell
+> python -m cbench_skew.jobs \
+      --script data/script.json \
+      --output data/output.json
+```
