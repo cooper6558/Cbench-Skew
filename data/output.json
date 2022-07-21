@@ -1,0 +1,47 @@
+[
+    {
+        "exe": "python -m compression_analysis",
+        "--input": "dataset_1",
+        "args": "--compressor compressor_1"
+    },
+    {
+        "exe": "python -m compression_analysis",
+        "--input": "dataset_1",
+        "args": "--compressor compressor_2"
+    },
+    {
+        "exe": "python -m compression_analysis",
+        "--input": "dataset_1",
+        "args": "--compressor compressor_3"
+    },
+    {
+        "exe": "python -m compression_analysis",
+        "--input": "dataset_2",
+        "args": "--compressor compressor_1"
+    },
+    {
+        "exe": "python -m compression_analysis",
+        "--input": "dataset_2",
+        "args": "--compressor compressor_2"
+    },
+    {
+        "exe": "python -m compression_analysis",
+        "--input": "dataset_2",
+        "args": "--compressor compressor_3"
+    },
+    {
+        "exe": "python -m compression_analysis",
+        "--input": "dataset_3",
+        "args": "--compressor compressor_1"
+    },
+    {
+        "exe": "python -m compression_analysis",
+        "--input": "dataset_3",
+        "args": "--compressor compressor_2"
+    },
+    {
+        "exe": "python -m compression_analysis",
+        "--input": "dataset_3",
+        "args": "--compressor compressor_3"
+    }
+]
