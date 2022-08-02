@@ -1,0 +1,17 @@
+{
+    "stages": {
+        "python -m cbench_skew.stage1": {
+            "--dataset": ["default","new"],
+            "--bins": [10, 20, 30]
+        },
+        "python -m cbench_skew.stage2" : {
+            "--skew": ["true", "false"],
+            "--spread": ["normal", "uniform"]
+        }
+    },
+    "data": [
+        "data/dataset1.hdf5",
+        "data/dataset2.hdf5",
+        "data/dataset3.hdf5"
+    ]
+}

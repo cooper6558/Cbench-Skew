@@ -1,0 +1,546 @@
+{
+    "python -m cbench_skew.stage1": [
+        [
+            "--input data/dataset1.hdf5",
+            "--output data/dataset1.hdf5.default10",
+            "--dataset default",
+            "--bins 10"
+        ],
+        [
+            "--input data/dataset2.hdf5",
+            "--output data/dataset2.hdf5.default10",
+            "--dataset default",
+            "--bins 10"
+        ],
+        [
+            "--input data/dataset3.hdf5",
+            "--output data/dataset3.hdf5.default10",
+            "--dataset default",
+            "--bins 10"
+        ],
+        [
+            "--input data/dataset1.hdf5",
+            "--output data/dataset1.hdf5.default20",
+            "--dataset default",
+            "--bins 20"
+        ],
+        [
+            "--input data/dataset2.hdf5",
+            "--output data/dataset2.hdf5.default20",
+            "--dataset default",
+            "--bins 20"
+        ],
+        [
+            "--input data/dataset3.hdf5",
+            "--output data/dataset3.hdf5.default20",
+            "--dataset default",
+            "--bins 20"
+        ],
+        [
+            "--input data/dataset1.hdf5",
+            "--output data/dataset1.hdf5.default30",
+            "--dataset default",
+            "--bins 30"
+        ],
+        [
+            "--input data/dataset2.hdf5",
+            "--output data/dataset2.hdf5.default30",
+            "--dataset default",
+            "--bins 30"
+        ],
+        [
+            "--input data/dataset3.hdf5",
+            "--output data/dataset3.hdf5.default30",
+            "--dataset default",
+            "--bins 30"
+        ],
+        [
+            "--input data/dataset1.hdf5",
+            "--output data/dataset1.hdf5.new10",
+            "--dataset new",
+            "--bins 10"
+        ],
+        [
+            "--input data/dataset2.hdf5",
+            "--output data/dataset2.hdf5.new10",
+            "--dataset new",
+            "--bins 10"
+        ],
+        [
+            "--input data/dataset3.hdf5",
+            "--output data/dataset3.hdf5.new10",
+            "--dataset new",
+            "--bins 10"
+        ],
+        [
+            "--input data/dataset1.hdf5",
+            "--output data/dataset1.hdf5.new20",
+            "--dataset new",
+            "--bins 20"
+        ],
+        [
+            "--input data/dataset2.hdf5",
+            "--output data/dataset2.hdf5.new20",
+            "--dataset new",
+            "--bins 20"
+        ],
+        [
+            "--input data/dataset3.hdf5",
+            "--output data/dataset3.hdf5.new20",
+            "--dataset new",
+            "--bins 20"
+        ],
+        [
+            "--input data/dataset1.hdf5",
+            "--output data/dataset1.hdf5.new30",
+            "--dataset new",
+            "--bins 30"
+        ],
+        [
+            "--input data/dataset2.hdf5",
+            "--output data/dataset2.hdf5.new30",
+            "--dataset new",
+            "--bins 30"
+        ],
+        [
+            "--input data/dataset3.hdf5",
+            "--output data/dataset3.hdf5.new30",
+            "--dataset new",
+            "--bins 30"
+        ]
+    ],
+    "python -m cbench_skew.stage2": [
+        [
+            "--input data/dataset1.hdf5.default10",
+            "--output data/dataset1.hdf5.default10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset2.hdf5.default10",
+            "--output data/dataset2.hdf5.default10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset3.hdf5.default10",
+            "--output data/dataset3.hdf5.default10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset1.hdf5.default20",
+            "--output data/dataset1.hdf5.default20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset2.hdf5.default20",
+            "--output data/dataset2.hdf5.default20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset3.hdf5.default20",
+            "--output data/dataset3.hdf5.default20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset1.hdf5.default30",
+            "--output data/dataset1.hdf5.default30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset2.hdf5.default30",
+            "--output data/dataset2.hdf5.default30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset3.hdf5.default30",
+            "--output data/dataset3.hdf5.default30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset1.hdf5.new10",
+            "--output data/dataset1.hdf5.new10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset2.hdf5.new10",
+            "--output data/dataset2.hdf5.new10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset3.hdf5.new10",
+            "--output data/dataset3.hdf5.new10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset1.hdf5.new20",
+            "--output data/dataset1.hdf5.new20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset2.hdf5.new20",
+            "--output data/dataset2.hdf5.new20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset3.hdf5.new20",
+            "--output data/dataset3.hdf5.new20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset1.hdf5.new30",
+            "--output data/dataset1.hdf5.new30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset2.hdf5.new30",
+            "--output data/dataset2.hdf5.new30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset3.hdf5.new30",
+            "--output data/dataset3.hdf5.new30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset1.hdf5.default10",
+            "--output data/dataset1.hdf5.default10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset2.hdf5.default10",
+            "--output data/dataset2.hdf5.default10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset3.hdf5.default10",
+            "--output data/dataset3.hdf5.default10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset1.hdf5.default20",
+            "--output data/dataset1.hdf5.default20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset2.hdf5.default20",
+            "--output data/dataset2.hdf5.default20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset3.hdf5.default20",
+            "--output data/dataset3.hdf5.default20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset1.hdf5.default30",
+            "--output data/dataset1.hdf5.default30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset2.hdf5.default30",
+            "--output data/dataset2.hdf5.default30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset3.hdf5.default30",
+            "--output data/dataset3.hdf5.default30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset1.hdf5.new10",
+            "--output data/dataset1.hdf5.new10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset2.hdf5.new10",
+            "--output data/dataset2.hdf5.new10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset3.hdf5.new10",
+            "--output data/dataset3.hdf5.new10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset1.hdf5.new20",
+            "--output data/dataset1.hdf5.new20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset2.hdf5.new20",
+            "--output data/dataset2.hdf5.new20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset3.hdf5.new20",
+            "--output data/dataset3.hdf5.new20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset1.hdf5.new30",
+            "--output data/dataset1.hdf5.new30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset2.hdf5.new30",
+            "--output data/dataset2.hdf5.new30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset3.hdf5.new30",
+            "--output data/dataset3.hdf5.new30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset1.hdf5.default10",
+            "--output data/dataset1.hdf5.default10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset2.hdf5.default10",
+            "--output data/dataset2.hdf5.default10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset3.hdf5.default10",
+            "--output data/dataset3.hdf5.default10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset1.hdf5.default20",
+            "--output data/dataset1.hdf5.default20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset2.hdf5.default20",
+            "--output data/dataset2.hdf5.default20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset3.hdf5.default20",
+            "--output data/dataset3.hdf5.default20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset1.hdf5.default30",
+            "--output data/dataset1.hdf5.default30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset2.hdf5.default30",
+            "--output data/dataset2.hdf5.default30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset3.hdf5.default30",
+            "--output data/dataset3.hdf5.default30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset1.hdf5.new10",
+            "--output data/dataset1.hdf5.new10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset2.hdf5.new10",
+            "--output data/dataset2.hdf5.new10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset3.hdf5.new10",
+            "--output data/dataset3.hdf5.new10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset1.hdf5.new20",
+            "--output data/dataset1.hdf5.new20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset2.hdf5.new20",
+            "--output data/dataset2.hdf5.new20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset3.hdf5.new20",
+            "--output data/dataset3.hdf5.new20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset1.hdf5.new30",
+            "--output data/dataset1.hdf5.new30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset2.hdf5.new30",
+            "--output data/dataset2.hdf5.new30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset3.hdf5.new30",
+            "--output data/dataset3.hdf5.new30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input data/dataset1.hdf5.default10",
+            "--output data/dataset1.hdf5.default10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset2.hdf5.default10",
+            "--output data/dataset2.hdf5.default10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset3.hdf5.default10",
+            "--output data/dataset3.hdf5.default10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset1.hdf5.default20",
+            "--output data/dataset1.hdf5.default20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset2.hdf5.default20",
+            "--output data/dataset2.hdf5.default20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset3.hdf5.default20",
+            "--output data/dataset3.hdf5.default20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset1.hdf5.default30",
+            "--output data/dataset1.hdf5.default30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset2.hdf5.default30",
+            "--output data/dataset2.hdf5.default30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset3.hdf5.default30",
+            "--output data/dataset3.hdf5.default30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset1.hdf5.new10",
+            "--output data/dataset1.hdf5.new10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset2.hdf5.new10",
+            "--output data/dataset2.hdf5.new10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset3.hdf5.new10",
+            "--output data/dataset3.hdf5.new10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset1.hdf5.new20",
+            "--output data/dataset1.hdf5.new20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset2.hdf5.new20",
+            "--output data/dataset2.hdf5.new20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset3.hdf5.new20",
+            "--output data/dataset3.hdf5.new20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset1.hdf5.new30",
+            "--output data/dataset1.hdf5.new30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset2.hdf5.new30",
+            "--output data/dataset2.hdf5.new30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input data/dataset3.hdf5.new30",
+            "--output data/dataset3.hdf5.new30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ]
+    ]
+}

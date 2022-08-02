@@ -1,0 +1,14 @@
+{
+    "stages": {
+        "python -m cbench_skew.stage1": {
+            "--dataset": ["default"],
+            "--bins": [10, 20, 30]
+        },
+        "python -m cbench_skew.stage2": {
+            "--example_arg": [1]
+        }
+    },
+    "data": [
+        "data/test.hdf5"
+    ]
+}
