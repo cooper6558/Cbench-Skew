@@ -1,17 +1,21 @@
 {
     "stages": {
         "python -m cbench_skew.stage1": {
-            "--dataset": ["default","new"],
-            "--bins": [10, 20, 30]
+            "args": {
+                "--datasat": ["default","new"],
+                "--bins": [10, 20, 30]
+            },
+            "prereqs": []
         },
         "python -m cbench_skew.stage2" : {
-            "--skew": ["true", "false"],
-            "--spread": ["normal", "uniform"]
+            "args": {
+                "--skew": ["true", "false"],
+                "--spread": ["normal", "uniform"]
+            },
+            "prereqs": ["python -m cbench_skew.stage1"]
         }
     },
-    "data": [
-        "data/dataset1.hdf5",
-        "data/dataset2.hdf5",
-        "data/dataset3.hdf5"
-    ]
+    "output": "multi_stage_jobs_output.json",
+    "outdir": "data"
+
 }

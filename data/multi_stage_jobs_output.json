@@ -1,544 +1,1624 @@
 {
     "python -m cbench_skew.stage1": [
         [
-            "--input data/dataset1.hdf5",
-            "--output data/dataset1.hdf5.default10",
-            "--dataset default",
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--datasat default",
             "--bins 10"
         ],
         [
-            "--input data/dataset2.hdf5",
-            "--output data/dataset2.hdf5.default10",
-            "--dataset default",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--datasat default",
             "--bins 10"
         ],
         [
-            "--input data/dataset3.hdf5",
-            "--output data/dataset3.hdf5.default10",
-            "--dataset default",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--datasat default",
             "--bins 10"
         ],
         [
-            "--input data/dataset1.hdf5",
-            "--output data/dataset1.hdf5.default20",
-            "--dataset default",
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--datasat default",
+            "--bins 10"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--datasat default",
+            "--bins 10"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--datasat default",
+            "--bins 10"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--datasat default",
+            "--bins 10"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--datasat default",
+            "--bins 10"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--datasat default",
+            "--bins 10"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--datasat default",
             "--bins 20"
         ],
         [
-            "--input data/dataset2.hdf5",
-            "--output data/dataset2.hdf5.default20",
-            "--dataset default",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--datasat default",
             "--bins 20"
         ],
         [
-            "--input data/dataset3.hdf5",
-            "--output data/dataset3.hdf5.default20",
-            "--dataset default",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--datasat default",
             "--bins 20"
         ],
         [
-            "--input data/dataset1.hdf5",
-            "--output data/dataset1.hdf5.default30",
-            "--dataset default",
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--datasat default",
+            "--bins 20"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--datasat default",
+            "--bins 20"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--datasat default",
+            "--bins 20"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--datasat default",
+            "--bins 20"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--datasat default",
+            "--bins 20"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--datasat default",
+            "--bins 20"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--datasat default",
             "--bins 30"
         ],
         [
-            "--input data/dataset2.hdf5",
-            "--output data/dataset2.hdf5.default30",
-            "--dataset default",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--datasat default",
             "--bins 30"
         ],
         [
-            "--input data/dataset3.hdf5",
-            "--output data/dataset3.hdf5.default30",
-            "--dataset default",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--datasat default",
             "--bins 30"
         ],
         [
-            "--input data/dataset1.hdf5",
-            "--output data/dataset1.hdf5.new10",
-            "--dataset new",
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--datasat default",
+            "--bins 30"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--datasat default",
+            "--bins 30"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--datasat default",
+            "--bins 30"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--datasat default",
+            "--bins 30"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--datasat default",
+            "--bins 30"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--datasat default",
+            "--bins 30"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--datasat new",
             "--bins 10"
         ],
         [
-            "--input data/dataset2.hdf5",
-            "--output data/dataset2.hdf5.new10",
-            "--dataset new",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--datasat new",
             "--bins 10"
         ],
         [
-            "--input data/dataset3.hdf5",
-            "--output data/dataset3.hdf5.new10",
-            "--dataset new",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--datasat new",
             "--bins 10"
         ],
         [
-            "--input data/dataset1.hdf5",
-            "--output data/dataset1.hdf5.new20",
-            "--dataset new",
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--datasat new",
+            "--bins 10"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--datasat new",
+            "--bins 10"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--datasat new",
+            "--bins 10"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--datasat new",
+            "--bins 10"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--datasat new",
+            "--bins 10"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--datasat new",
+            "--bins 10"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--datasat new",
             "--bins 20"
         ],
         [
-            "--input data/dataset2.hdf5",
-            "--output data/dataset2.hdf5.new20",
-            "--dataset new",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--datasat new",
             "--bins 20"
         ],
         [
-            "--input data/dataset3.hdf5",
-            "--output data/dataset3.hdf5.new20",
-            "--dataset new",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--datasat new",
             "--bins 20"
         ],
         [
-            "--input data/dataset1.hdf5",
-            "--output data/dataset1.hdf5.new30",
-            "--dataset new",
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--datasat new",
+            "--bins 20"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--datasat new",
+            "--bins 20"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--datasat new",
+            "--bins 20"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--datasat new",
+            "--bins 20"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--datasat new",
+            "--bins 20"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--datasat new",
+            "--bins 20"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--datasat new",
             "--bins 30"
         ],
         [
-            "--input data/dataset2.hdf5",
-            "--output data/dataset2.hdf5.new30",
-            "--dataset new",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--datasat new",
             "--bins 30"
         ],
         [
-            "--input data/dataset3.hdf5",
-            "--output data/dataset3.hdf5.new30",
-            "--dataset new",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--datasat new",
+            "--bins 30"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--datasat new",
+            "--bins 30"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--datasat new",
+            "--bins 30"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--datasat new",
+            "--bins 30"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--datasat new",
+            "--bins 30"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--datasat new",
+            "--bins 30"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--datasat new",
             "--bins 30"
         ]
     ],
     "python -m cbench_skew.stage2": [
         [
-            "--input data/dataset1.hdf5.default10",
-            "--output data/dataset1.hdf5.default10.truenormal",
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset2.hdf5.default10",
-            "--output data/dataset2.hdf5.default10.truenormal",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset3.hdf5.default10",
-            "--output data/dataset3.hdf5.default10.truenormal",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset1.hdf5.default20",
-            "--output data/dataset1.hdf5.default20.truenormal",
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset2.hdf5.default20",
-            "--output data/dataset2.hdf5.default20.truenormal",
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset3.hdf5.default20",
-            "--output data/dataset3.hdf5.default20.truenormal",
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset1.hdf5.default30",
-            "--output data/dataset1.hdf5.default30.truenormal",
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset2.hdf5.default30",
-            "--output data/dataset2.hdf5.default30.truenormal",
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset3.hdf5.default30",
-            "--output data/dataset3.hdf5.default30.truenormal",
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset1.hdf5.new10",
-            "--output data/dataset1.hdf5.new10.truenormal",
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset2.hdf5.new10",
-            "--output data/dataset2.hdf5.new10.truenormal",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset3.hdf5.new10",
-            "--output data/dataset3.hdf5.new10.truenormal",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset1.hdf5.new20",
-            "--output data/dataset1.hdf5.new20.truenormal",
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset2.hdf5.new20",
-            "--output data/dataset2.hdf5.new20.truenormal",
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset3.hdf5.new20",
-            "--output data/dataset3.hdf5.new20.truenormal",
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset1.hdf5.new30",
-            "--output data/dataset1.hdf5.new30.truenormal",
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset2.hdf5.new30",
-            "--output data/dataset2.hdf5.new30.truenormal",
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset3.hdf5.new30",
-            "--output data/dataset3.hdf5.new30.truenormal",
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.truenormal",
             "--skew true",
             "--spread normal"
         ],
         [
-            "--input data/dataset1.hdf5.default10",
-            "--output data/dataset1.hdf5.default10.trueuniform",
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.truenormal",
+            "--skew true",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset2.hdf5.default10",
-            "--output data/dataset2.hdf5.default10.trueuniform",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset3.hdf5.default10",
-            "--output data/dataset3.hdf5.default10.trueuniform",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset1.hdf5.default20",
-            "--output data/dataset1.hdf5.default20.trueuniform",
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset2.hdf5.default20",
-            "--output data/dataset2.hdf5.default20.trueuniform",
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset3.hdf5.default20",
-            "--output data/dataset3.hdf5.default20.trueuniform",
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset1.hdf5.default30",
-            "--output data/dataset1.hdf5.default30.trueuniform",
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset2.hdf5.default30",
-            "--output data/dataset2.hdf5.default30.trueuniform",
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset3.hdf5.default30",
-            "--output data/dataset3.hdf5.default30.trueuniform",
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset1.hdf5.new10",
-            "--output data/dataset1.hdf5.new10.trueuniform",
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset2.hdf5.new10",
-            "--output data/dataset2.hdf5.new10.trueuniform",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset3.hdf5.new10",
-            "--output data/dataset3.hdf5.new10.trueuniform",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset1.hdf5.new20",
-            "--output data/dataset1.hdf5.new20.trueuniform",
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset2.hdf5.new20",
-            "--output data/dataset2.hdf5.new20.trueuniform",
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset3.hdf5.new20",
-            "--output data/dataset3.hdf5.new20.trueuniform",
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset1.hdf5.new30",
-            "--output data/dataset1.hdf5.new30.trueuniform",
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset2.hdf5.new30",
-            "--output data/dataset2.hdf5.new30.trueuniform",
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset3.hdf5.new30",
-            "--output data/dataset3.hdf5.new30.trueuniform",
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.trueuniform",
             "--skew true",
             "--spread uniform"
         ],
         [
-            "--input data/dataset1.hdf5.default10",
-            "--output data/dataset1.hdf5.default10.falsenormal",
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.trueuniform",
+            "--skew true",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset2.hdf5.default10",
-            "--output data/dataset2.hdf5.default10.falsenormal",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset3.hdf5.default10",
-            "--output data/dataset3.hdf5.default10.falsenormal",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset1.hdf5.default20",
-            "--output data/dataset1.hdf5.default20.falsenormal",
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset2.hdf5.default20",
-            "--output data/dataset2.hdf5.default20.falsenormal",
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset3.hdf5.default20",
-            "--output data/dataset3.hdf5.default20.falsenormal",
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset1.hdf5.default30",
-            "--output data/dataset1.hdf5.default30.falsenormal",
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset2.hdf5.default30",
-            "--output data/dataset2.hdf5.default30.falsenormal",
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset3.hdf5.default30",
-            "--output data/dataset3.hdf5.default30.falsenormal",
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset1.hdf5.new10",
-            "--output data/dataset1.hdf5.new10.falsenormal",
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset2.hdf5.new10",
-            "--output data/dataset2.hdf5.new10.falsenormal",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset3.hdf5.new10",
-            "--output data/dataset3.hdf5.new10.falsenormal",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset1.hdf5.new20",
-            "--output data/dataset1.hdf5.new20.falsenormal",
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset2.hdf5.new20",
-            "--output data/dataset2.hdf5.new20.falsenormal",
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset3.hdf5.new20",
-            "--output data/dataset3.hdf5.new20.falsenormal",
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset1.hdf5.new30",
-            "--output data/dataset1.hdf5.new30.falsenormal",
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset2.hdf5.new30",
-            "--output data/dataset2.hdf5.new30.falsenormal",
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset3.hdf5.new30",
-            "--output data/dataset3.hdf5.new30.falsenormal",
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falsenormal",
             "--skew false",
             "--spread normal"
         ],
         [
-            "--input data/dataset1.hdf5.default10",
-            "--output data/dataset1.hdf5.default10.falseuniform",
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falsenormal",
+            "--skew false",
+            "--spread normal"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset2.hdf5.default10",
-            "--output data/dataset2.hdf5.default10.falseuniform",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset3.hdf5.default10",
-            "--output data/dataset3.hdf5.default10.falseuniform",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset1.hdf5.default20",
-            "--output data/dataset1.hdf5.default20.falseuniform",
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset2.hdf5.default20",
-            "--output data/dataset2.hdf5.default20.falseuniform",
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset3.hdf5.default20",
-            "--output data/dataset3.hdf5.default20.falseuniform",
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset1.hdf5.default30",
-            "--output data/dataset1.hdf5.default30.falseuniform",
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset2.hdf5.default30",
-            "--output data/dataset2.hdf5.default30.falseuniform",
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset3.hdf5.default30",
-            "--output data/dataset3.hdf5.default30.falseuniform",
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default10",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default10.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset1.hdf5.new10",
-            "--output data/dataset1.hdf5.new10.falseuniform",
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset2.hdf5.new10",
-            "--output data/dataset2.hdf5.new10.falseuniform",
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset3.hdf5.new10",
-            "--output data/dataset3.hdf5.new10.falseuniform",
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset1.hdf5.new20",
-            "--output data/dataset1.hdf5.new20.falseuniform",
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset2.hdf5.new20",
-            "--output data/dataset2.hdf5.new20.falseuniform",
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset3.hdf5.new20",
-            "--output data/dataset3.hdf5.new20.falseuniform",
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset1.hdf5.new30",
-            "--output data/dataset1.hdf5.new30.falseuniform",
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset2.hdf5.new30",
-            "--output data/dataset2.hdf5.new30.falseuniform",
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falseuniform",
             "--skew false",
             "--spread uniform"
         ],
         [
-            "--input data/dataset3.hdf5.new30",
-            "--output data/dataset3.hdf5.new30.falseuniform",
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default20",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default30",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.default30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new10",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new10.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new20",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new20.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_pwrel__0_5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_pwrel__0_99__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__1___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__2___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__5___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output SZ_abs__10___NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output zfp_prec__1__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output zfp_prec__2__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falseuniform",
+            "--skew false",
+            "--spread uniform"
+        ],
+        [
+            "--input zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new30",
+            "--output zfp_abs__10__NVB_C009_l10n512_S12345T692_z42.hdf5.new30.falseuniform",
             "--skew false",
             "--spread uniform"
         ]
