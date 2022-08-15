@@ -1,14 +1,19 @@
 {
     "stages": {
         "python -m cbench_skew.stage1": {
-            "--dataset": ["default"],
-            "--bins": [10, 20, 30]
+            "args": {
+                "--dataset": ["default"],
+                "--bins": [10, 30]
+            },
+            "prereqs": []
         },
-        "python -m cbench_skew.stage2": {
-            "--example_arg": [1]
+        "python -m cbench_skew.stage2" : {
+            "args": {
+                "--color": ["Blues_d"]
+            },
+            "prereqs": ["python -m cbench_skew.stage1"]
         }
     },
-    "data": [
-        "data/test.hdf5"
-    ]
+    "output": "example_output.json",
+    "outdir": "data"
 }

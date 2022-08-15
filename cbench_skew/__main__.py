@@ -21,8 +21,19 @@ def main():
         '--bins', type=int, required=True,
         help='number of histogram bins to compute'
     )
+    parser.add_argument(
+        '--output', type=str, required=True,
+        help='output histogram image file'
+    )
+    parser.add_argument(
+        '--color', type=str, required=True,
+        help='output histogram color palette'
+    )
     args = parser.parse_args()
-    plot(hist(args.input, args.dataset, args.bins))
+    plot(
+        hist(args.input, args.dataset, args.bins),
+        args.output+'.png', args.color
+    )
 
 
 if __name__ == '__main__':

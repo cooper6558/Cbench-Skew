@@ -1,19 +1,19 @@
 # Plot histogram from numpy file
+# Example script to run with job scheduler as stage 2
 
-from matplotlib.pyplot import show, savefig
+from matplotlib.pyplot import savefig
 from seaborn import barplot
 from argparse import ArgumentParser
 from numpy import load
 
 
-def plot(histogram, output):
+def plot(histogram, output, color):
     barplot(
         x=histogram[1].round(1),
         y=histogram[0],
-        palette="Blues_d"
+        palette=color
     )
-    show()
-    savefig(output+'.png')
+    savefig(output)
 
 
 def main():
@@ -25,11 +25,15 @@ def main():
         help='input file name'
     )
     parser.add_argument(
+        '--color', type=str, required=True,
+        help='plot color palette'
+    )
+    parser.add_argument(
         '--output', type=str, required=True,
         help='output image'
     )
     args = parser.parse_args()
-    plot(load(args.input), args.output)
+    plot(load(args.input), args.output, args.color)
 
 
 if __name__ == '__main__':

@@ -1,4 +1,5 @@
 # Compute histogram for Cbench hdf5 output files
+# Example script to run with job scheduler as stage 1
 
 from numpy import histogram, vstack, save
 from h5py import File
