@@ -13,7 +13,7 @@ def plot(histogram, output, color):
         y=histogram[0],
         palette=color
     )
-    savefig(output)
+    savefig(output, format='png')
 
 
 def main():

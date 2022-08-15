@@ -34,7 +34,8 @@ def main():
         help='output file name'
     )
     args = parser.parse_args()
-    save(args.output, hist(args.input, args.dataset, args.bins))
+    with open(args.output, 'wb') as f:
+        save(f, hist(args.input, args.dataset, args.bins))
 
 
 if __name__ == '__main__':
